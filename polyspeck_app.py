@@ -44,15 +44,14 @@ def run_app(data_path):
     def create_download_link(df):
         csv = df.to_csv(index=False)
         b64 = base64.b64encode(csv.encode()).decode()
-        href = f'<a href="data:file/csv;base64,{b64}" download="predictions.csv">Download CSV File</a>'
-        return href
+        return f'<a href="data:file/csv;base64,{b64}" download="predictions.csv">Download CSV File</a>'
 
     # Streamlit app
     st.title("PolySpeckML Prediction App")
 
     # Display model information in the sidebar
     st.sidebar.header("Model Information")
-    st.sidebar.write(f"Model Type: Gradient Boosting Regressor")
+    st.sidebar.write("Model Type: Gradient Boosting Regressor")
     st.sidebar.write(f"Number of Samples: {len(X)}")
     st.sidebar.write(f"Number of Features: {X.shape[1]}")
 
