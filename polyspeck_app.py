@@ -77,7 +77,7 @@ def run_app(data_path):
         contour = ax.contourf(xx, yy, Z, levels=20, cmap="viridis", alpha=0.8)
         ax.scatter(X["DS_acycl"], X["DS_cycl"], c=y, cmap="viridis", edgecolor="black")
         ax.scatter(
-            ds_acycl, ds_cycl, color="red", s=200, marker="*", label="Prediction"
+            ds_acycl, ds_cycl, color="red", s=200, marker="*", label="Input Point"
         )
         ax.set_xlabel("DS_acycl")
         ax.set_ylabel("DS_cycl")
