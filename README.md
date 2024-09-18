@@ -5,6 +5,7 @@ PolySpeckML is a machine learning project aimed at predicting the stability of p
 ## Project Overview
 
 The main goals of this project are:
+
 1. Predict nanoparticle stability in Acetate and PBS buffers using polymer properties.
 2. Analyze and preprocess provided data on polymer nanoparticles.
 3. Develop and evaluate machine learning models for stability prediction.
@@ -20,6 +21,7 @@ The main goals of this project are:
 ### Installation
 
 1. Clone the repository:
+
    ```
    git clone https://github.com/yourusername/PolySpeckML.git
    cd PolySpeckML
@@ -60,10 +62,6 @@ This will start a local server, and you can access the app through your web brow
 - Cross-validation techniques (Leave-One-Out Cross-Validation)
 - Interactive web application for single and batch predictions
 - Visualization of prediction results
-
-## Contributing
-
-Contributions to PolySpeckML are welcome. Please feel free to submit pull requests, create issues or spread the word.
 
 ## License
 
