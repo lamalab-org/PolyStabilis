@@ -23,7 +23,7 @@ The main goals of this project are:
 1. Clone the repository:
 
    ```
-   git clone https://github.com/yourusername/PolySpeckML.git
+   git clone https://github.com/lamalab-org/PolySpeckML.git
    cd PolySpeckML
    ```
 
