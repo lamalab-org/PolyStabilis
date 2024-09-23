@@ -1,6 +1,6 @@
-# PolySpeckML: Polymer Nanoparticle Stability Prediction
+# PolyNanoStabML: Polymer Nanoparticle Stability Prediction
 
-PolySpeckML is a machine learning project aimed at predicting the stability of polymer nanoparticles based on their composition and properties. This project uses data on polymer nanoparticles, including their acyclic and cyclic Degree of Substitution (DS), to predict stability measurements in different buffer conditions.
+PolyNanoStabML is a machine learning project aimed at predicting the stability of polymer nanoparticles based on their composition and properties. This project uses data on polymer nanoparticles, including their acyclic and cyclic Degree of Substitution (DS), to predict stability measurements in different buffer conditions.
 
 ## Project Overview
 
