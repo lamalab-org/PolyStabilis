@@ -27,7 +27,14 @@ The main goals of this project are:
    cd PolyNanoStabML
    ```
 
-2. Install the required dependencies:
+2. Set up the environment:
+
+   ```
+   conda create --name polynanostab python=3.10
+   conda activate polynanostab
+   ```
+
+3. Install the required dependencies:
    ```
    pip install -r requirements.txt
    ```
