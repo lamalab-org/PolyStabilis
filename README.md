@@ -23,8 +23,8 @@ The main goals of this project are:
 1. Clone the repository:
 
    ```
-   git clone https://github.com/lamalab-org/PolySpeckML.git
-   cd PolySpeckML
+   git clone https://github.com/lamalab-org/PolyNanoStabML.git
+   cd PolyNanoStabML
    ```
 
 2. Install the required dependencies:
@@ -36,7 +36,7 @@ The main goals of this project are:
 
 - `data/`: Contains the dataset used for training and testing.
 - `notebooks/`: Jupyter notebooks for data analysis and model development.
-- `polyspeck_app.py`: Streamlit application for the user interface.
+- `polynanostab_app.py`: Streamlit application for the user interface.
 - `requirements.txt`: List of Python dependencies.
 
 ## Usage
@@ -50,7 +50,7 @@ To explore the data and train the models, run the Jupyter notebooks in the `note
 To launch the prediction interface, run:
 
 ```
-streamlit run polyspeck_app.py -- --data_path="/path/to/your/data.csv"
+streamlit run polynanostab_app.py -- --data_path="/path/to/your/data.csv"
 ```
 
 This will start a local server, and you can access the app through your web browser.
