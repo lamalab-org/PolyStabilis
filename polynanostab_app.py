@@ -179,7 +179,7 @@ def run_app(data_path):
 
         return df
 
-    st.title("PolySpeckML Nanoparticle Stability Prediction App")
+    st.title("Polymer Nanoparticle Stability Prediction App")
 
     # Model information in sidebar
     st.sidebar.header("Model Information")
