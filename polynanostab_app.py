@@ -18,7 +18,7 @@ def get_file_hash(file_path):
         return hashlib.md5(f.read()).hexdigest()
 
 
-def run_app(data_path):
+def run_app(data_path="data/nano_polymer_stability.csv"):
     # Load and preprocess data with hash check
     @st.cache_data(show_spinner=True)
     def load_data(file_path, file_hash):
