@@ -62,13 +62,6 @@ streamlit run polynanostab_app.py -- --data_path="/path/to/your/data.csv"
 
 This will start a local server, and you can access the app through your web browser.
 
-## Features
-
-- Data preprocessing and analysis
-- Machine learning model development (Gradient Boosting Regressor, Logistic Regression)
-- Cross-validation techniques (Leave-One-Out Cross-Validation)
-- Interactive web application for single and batch predictions
-- Visualization of prediction results
 
 ## App link
 
