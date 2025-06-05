@@ -70,6 +70,10 @@ This will start a local server, and you can access the app through your web brow
 - Interactive web application for single and batch predictions
 - Visualization of prediction results
 
+## App link
+
+You can access the deployed application at [PolyNanoStabML App](https://polynanostab.streamlit.app/).
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
