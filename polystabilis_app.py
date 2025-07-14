@@ -57,9 +57,6 @@ def run_app(data_path="data/nano_polymer_stability.csv"):
             y_train = y_acetate.iloc[train_index]
 
             model = GradientBoostingRegressor(
-                n_estimators=19,
-                learning_rate=0.16456759118193748,
-                max_depth=5,
                 random_state=42,
             )
             model.fit(X_train, y_train)
