@@ -57,6 +57,9 @@ def run_app(data_path="data/nano_polymer_stability.csv"):
             y_train = y_acetate.iloc[train_index]
 
             model = GradientBoostingRegressor(
+                n_estimators=87,
+                learning_rate=0.0269,
+                max_depth=3,
                 random_state=42,
             )
             model.fit(X_train, y_train)
@@ -184,6 +187,12 @@ def run_app(data_path="data/nano_polymer_stability.csv"):
     st.sidebar.write("Classification Model: Logistic Regression")
     st.sidebar.write(f"Number of Samples: {len(X)}")
     st.sidebar.write(f"Number of Features: {X.shape[1]}")
+    
+    # Add hyperparameter information
+    st.sidebar.subheader("Optimized Hyperparameters")
+    st.sidebar.write("n_estimators: 87")
+    st.sidebar.write("learning_rate: 0.0269")
+    st.sidebar.write("max_depth: 3")
 
     # Single prediction section
     st.header("Single Prediction of Nanoparticle Stability")
