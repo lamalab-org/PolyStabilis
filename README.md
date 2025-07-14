@@ -57,7 +57,7 @@ To explore the data and train the models, run the Jupyter notebooks in the `note
 To launch the prediction interface, run:
 
 ```
-streamlit run polynanostab_app.py -- --data_path="/path/to/your/data.csv"
+streamlit run polystabilis_app.py -- --data_path="/path/to/your/data.csv"
 ```
 
 This will start a local server, and you can access the app through your web browser.
