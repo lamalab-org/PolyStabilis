@@ -1,4 +1,4 @@
-# PolyNanoStabML: Polymer Nanoparticle Stability Prediction
+# PolyStabilis: Polymer Nanoparticle Stability Prediction
 
 PolyNanoStabML is a machine learning-based application for predicting the stability of polymer nanoparticles. The tool leverages regression and classification models to predict nanoparticle stability. Specifically, it uses regression model to predict half-life stability in acetate buffer and classification models to predict stability in PBS buffer.
 
