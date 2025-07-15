@@ -65,7 +65,7 @@ This will start a local server, and you can access the app through your web brow
 
 ## App link
 
-You can access the deployed application at [PolyNanoStabML App](https://polynanostab.streamlit.app/).
+You can access the deployed application at [PolyStabilis App](https://polystabilis.streamlit.app).
 
 ## License
 
