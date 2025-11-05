@@ -24,7 +24,7 @@ The main goals of this project are:
 
    ```
    git clone https://github.com/lamalab-org/PolyStabilis.git
-   cd PolyNanoStabML
+   cd PolyStabilis
    ```
 
 2. Set up the environment:
@@ -43,7 +43,7 @@ The main goals of this project are:
 
 - `data/`: Contains the dataset used for training and testing.
 - `notebooks/`: Jupyter notebooks for data analysis and model development.
-- `polynanostab_app.py`: Streamlit application for the user interface.
+- `polystabilis_app.py`: Streamlit application for the user interface.
 - `requirements.txt`: List of Python dependencies.
 
 ## Usage
