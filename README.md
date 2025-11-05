@@ -23,15 +23,15 @@ The main goals of this project are:
 1. Clone the repository:
 
    ```
-   git clone https://github.com/lamalab-org/PolyNanoStabML.git
+   git clone https://github.com/lamalab-org/PolyStabilis.git
    cd PolyNanoStabML
    ```
 
 2. Set up the environment:
 
    ```
-   conda create --name polynanostab python=3.10
-   conda activate polynanostab
+   conda create --name polystabilis python=3.10
+   conda activate polystabilis
    ```
 
 3. Install the required dependencies:
