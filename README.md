@@ -41,7 +41,7 @@ The main goals of this project are:
 
 ## Project Structure
 
-- `data/`: Contains the dataset used for training and testing.
+- `data/`: Contains the dataset used for training and testing along with features and target labels.
 - `notebooks/`: Jupyter notebooks for data analysis and model development.
 - `polystabilis_app.py`: Streamlit application for the user interface.
 - `requirements.txt`: List of Python dependencies.
