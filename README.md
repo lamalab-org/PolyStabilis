@@ -70,3 +70,18 @@ You can access the deployed application at [PolyStabilis App](https://polystabil
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+# Citation
+
+If you use PolyStabilis in your research, please cite the following paper:
+
+```bibtex
+@article{kohler2026predicting,
+  title={Predicting acetalated dextran nanoparticle features: Controlled synthesis, formulation, and testing in a high-throughput process},
+  author={K{\"o}hler, Thorben and Kunchapu, Sreekanth and Vollrath, Antje and Rezaei, Kourosh and Kimmig, Julian and Stumpf, Steffi and Hoeppener, Stephanie and Nischang, Ivo and Jablonka, Kevin M and Schubert, Ulrich S and others},
+  journal={Carbohydrate Polymers},
+  pages={124890},
+  year={2026},
+  publisher={Elsevier}
+}
+```
